@@ -1,152 +1,271 @@
-* {
-    margin: 0px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.banner {
-    background-image: url("../images/donation12.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 650px;
-}
-
-.background-color {
-    height: 650px;
-    background-color: rgba(0, 0, 0, 0.45)
-}
-
-.banner-info {
-    padding: 220px 300px;
-}
-
-.banner-header {
-    color: white;
-    text-align: center;
-    font-weight: 800;
-    font-size: 60px;
-}
-
-.banner-description {
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
-}
-
-.banner button {
-    margin-top: 20px;
-    margin-left: 21.8rem;
-}
-
-.primary-button {
-    color: white;
-    background-color: rgba(245, 72, 20, 0.933);
-    width: 9rem;
-    height: 3rem;
-    font-weight: bold;
-    border-radius: 6px;
-    font-size: 16px;
-    border: 0px;
-}
-
-
-/* Donate Today */
-
-.donate-today {
-    margin-top: 100px;
-    text-align: center;
-}
-
-.donate-today h1 {
-    font-size: 42px;
-}
-
-.donate-today p {
-    font-size: 18px;
-    margin-top: 20px;
-    color: gray;
-}
-
-.donate-today .box {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    width: 1000px;
-    margin-left: 13rem;
-}
-
-.donate-today .box .box-model {
-    color: grey;
-    background-color: rgba(0, 0, 0, 0.025);
-    padding: 2rem 2rem;
-}
-
-.donate-today .box .box-model1 {
-    color: rgba(245, 72, 20, 0.933);
-    border: 1px solid rgba(245, 72, 20, 0.933);
-    background-color: rgba(245, 72, 20, 0.1);
-    padding: 2rem 2rem;
-}
-
-.form1 {
-    margin-top: 40px;
-}
-
-.donate-today .form1 input {
-    width: 900px;
-    text-align: center;
-    border-left: 0px;
-    border-right: 0px;
-    border-top: 0px;
-    border-bottom: 0.5px solid grey;
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-
-.donate-today button {
-    margin-top: 30px;
-}
-
-
-/*Donate Today */
-
-.donate-plan-box {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2rem;
-}
-
-.donate-plan-boxmodel {
-    padding: 2.5rem 1rem;
-    border: 1px solid black;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    border: 0px;
-}
-
-#box1 {
-    background: rgba(0, 213, 255, 0.1);
-}
-
-#box2 {
-    background-color: rgba(255, 0, 0, 0.1);
-}
-
-#box3 {
-    background-color: rgba(153, 205, 50, 0.1);
-}
-
-.donate-plan {
-    margin-top: 100px;
-}
-
-.donate-plan h1 {
-    font-size: 42px;
-    text-align: center;
-}
-
-.donate-plan .donate-plan-des {
-    margin-top: 20px;
-    text-align: center;
-    color: grey;
-}
+                            * {
+                                margin: 0px;
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                            }
+                            
+                            .banner {
+                                background-image: url("../images/donation12.png");
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                height: 650px;
+                            }
+                            
+                            .background-color {
+                                height: 650px;
+                                background-color: rgba(0, 0, 0, 0.45)
+                            }
+                            
+                            .banner-info {
+                                padding: 220px 300px;
+                            }
+                            
+                            .banner-header {
+                                color: white;
+                                text-align: center;
+                                font-weight: 800;
+                                font-size: 60px;
+                            }
+                            
+                            .banner-description {
+                                color: white;
+                                text-align: center;
+                                margin-top: 20px;
+                                font-size: 18px;
+                            }
+                            
+                            .banner button {
+                                margin-top: 20px;
+                                margin-left: 21.8rem;
+                            }
+                            
+                            .primary-button {
+                                color: white;
+                                background-color: rgba(245, 72, 20, 0.933);
+                                width: 9rem;
+                                height: 3rem;
+                                font-weight: bold;
+                                border-radius: 6px;
+                                font-size: 16px;
+                                border: 0px;
+                            }
+                            /* Donate Today */
+                            
+                            .donate-today {
+                                margin-top: 100px;
+                                text-align: center;
+                            }
+                            
+                            .donate-today h1 {
+                                font-size: 42px;
+                            }
+                            
+                            .donate-today p {
+                                font-size: 18px;
+                                margin-top: 20px;
+                                color: gray;
+                            }
+                            
+                            .donate-today .box {
+                                margin-top: 20px;
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 1000px;
+                                margin-left: 13rem;
+                            }
+                            
+                            .donate-today .box .box-model {
+                                color: grey;
+                                background-color: rgba(0, 0, 0, 0.025);
+                                padding: 2rem 2rem;
+                            }
+                            
+                            .donate-today .box .box-model1 {
+                                color: rgba(245, 72, 20, 0.933);
+                                border: 1px solid rgba(245, 72, 20, 0.933);
+                                background-color: rgba(245, 72, 20, 0.1);
+                                padding: 2rem 2rem;
+                            }
+                            
+                            .form1 {
+                                margin-top: 40px;
+                            }
+                            
+                            .donate-today .form1 input {
+                                width: 900px;
+                                text-align: center;
+                                border-left: 0px;
+                                border-right: 0px;
+                                border-top: 0px;
+                                border-bottom: 0.5px solid grey;
+                                font-size: 20px;
+                                padding-bottom: 10px;
+                            }
+                            
+                            .donate-today button {
+                                margin-top: 30px;
+                            }
+                            /*Donate Today */
+                            
+                            .donate-plan-box {
+                                display: flex;
+                                justify-content: space-around;
+                                margin-top: 2rem;
+                            }
+                            
+                            .donate-plan-boxmodel {
+                                padding: 2.5rem 1rem;
+                                border: 1px solid black;
+                                margin-left: 4rem;
+                                margin-right: 4rem;
+                                border: 0px;
+                            }
+                            
+                            .donate-plan-boxmodel h3 {
+                                font-weight: 700;
+                                margin-top: 1rem;
+                            }
+                            
+                            .donate-plan-boxmodel p {
+                                color: grey;
+                                font-size: 16px;
+                                margin-top: 1rem;
+                            }
+                            
+                            #box1 {
+                                background: rgba(0, 213, 255, 0.1);
+                            }
+                            
+                            #box2 {
+                                background-color: rgba(255, 0, 0, 0.1);
+                            }
+                            
+                            #box3 {
+                                background-color: rgba(153, 205, 50, 0.1);
+                            }
+                            
+                            .donate-plan {
+                                margin-top: 100px;
+                            }
+                            
+                            .donate-plan h1 {
+                                font-size: 42px;
+                                text-align: center;
+                            }
+                            
+                            .donate-plan .donate-plan-des {
+                                margin-top: 20px;
+                                text-align: center;
+                                color: grey;
+                            }
+                            /*Donate info */
+                            
+                            .donate-info {
+                                margin-top: 100px;
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                            }
+                            
+                            .info-image img {
+                                width: 25rem;
+                                height: 25rem;
+                                border-radius: 5px;
+                                margin-right: 8rem;
+                            }
+                            
+                            .info-section {
+                                padding: 2rem 0rem;
+                                margin-left: 13rem;
+                                width: 30rem;
+                            }
+                            
+                            .info-section h2 {
+                                font-size: 42px;
+                            }
+                            
+                            .info-section p {
+                                color: grey;
+                                font-size: 16px;
+                                margin-top: 10px;
+                            }
+                            
+                            .info-section button {
+                                margin-top: 10px;
+                            }
+                            
+                            .secondary-button {
+                                color: white;
+                                background-color: rgba(245, 72, 20, 0.933);
+                                width: 11rem;
+                                height: 3rem;
+                                font-weight: bold;
+                                border-radius: 6px;
+                                font-size: 14px;
+                                border: 0px;
+                            }
+                            
+                            #soumik {
+                                margin-right: 10rem;
+                                width: 100rem;
+                                margin-left: 7rem;
+                            }
+                            
+                            #img1 {
+                                margin-left: 16.3rem;
+                                margin-right: 0rem;
+                                width: 30rem;
+                            }
+                            
+                            .update h1 {
+                                font-size: 42px;
+                                margin-top: 100px;
+                                text-align: center;
+                            }
+                            
+                            .update p {
+                                margin-top: 20px;
+                                text-align: center;
+                                color: grey;
+                            }
+                            
+                            .form {
+                                margin: 100px 160px;
+                                margin-left: 16rem;
+                                background-color: rgba(255, 255, 0, 0.431);
+                                padding: 4rem 2rem;
+                            }
+                            
+                            #megh {
+                                width: 450px;
+                                text-align: left;
+                                font-size: 20px;
+                                padding-bottom: 10px;
+                                height: 2.1rem;
+                                margin-left: 8rem;
+                            }
+                            
+                            .form12 {
+                                display: flex;
+                            }
+                            
+                            .footer-section {
+                                margin-top: 100px;
+                                background-color: black;
+                            }
+                            
+                            .footer-section h1 {
+                                padding-top: 3rem;
+                                color: rgba(245, 72, 20, 0.933);
+                                font-family: "Agbalumo";
+                                font-size: 42px;
+                                font-weight: 700;
+                                text-align: center;
+                            }
+                            
+                            .footer-section p {
+                                margin-top: 15px;
+                                color: whitesmoke;
+                                font-size: 12px;
+                                text-align: center;
+                                padding-bottom: 40px;
+                            }
