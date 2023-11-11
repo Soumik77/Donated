@@ -100,8 +100,53 @@
     border-top: 0px;
     border-bottom: 0.5px solid grey;
     font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .donate-today button {
     margin-top: 30px;
+}
+
+
+/*Donate Today */
+
+.donate-plan-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.donate-plan-boxmodel {
+    padding: 2.5rem 1rem;
+    border: 1px solid black;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border: 0px;
+}
+
+#box1 {
+    background: rgba(0, 213, 255, 0.1);
+}
+
+#box2 {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+#box3 {
+    background-color: rgba(153, 205, 50, 0.1);
+}
+
+.donate-plan {
+    margin-top: 100px;
+}
+
+.donate-plan h1 {
+    font-size: 42px;
+    text-align: center;
+}
+
+.donate-plan .donate-plan-des {
+    margin-top: 20px;
+    text-align: center;
+    color: grey;
 }
