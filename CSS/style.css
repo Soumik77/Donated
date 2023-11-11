@@ -35,7 +35,7 @@
 
 .banner button {
     margin-top: 20px;
-    margin-left: 21rem;
+    margin-left: 21.8rem;
 }
 
 .primary-button {
@@ -46,4 +46,62 @@
     font-weight: bold;
     border-radius: 6px;
     font-size: 16px;
+    border: 0px;
+}
+
+
+/* Donate Today */
+
+.donate-today {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.donate-today h1 {
+    font-size: 42px;
+}
+
+.donate-today p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.donate-today .box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin-left: 13rem;
+}
+
+.donate-today .box .box-model {
+    color: grey;
+    background-color: rgba(0, 0, 0, 0.025);
+    padding: 2rem 2rem;
+}
+
+.donate-today .box .box-model1 {
+    color: rgba(245, 72, 20, 0.933);
+    border: 1px solid rgba(245, 72, 20, 0.933);
+    background-color: rgba(245, 72, 20, 0.1);
+    padding: 2rem 2rem;
+}
+
+.form1 {
+    margin-top: 40px;
+}
+
+.donate-today .form1 input {
+    width: 900px;
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0.5px solid grey;
+    font-size: 20px;
+}
+
+.donate-today button {
+    margin-top: 30px;
 }
